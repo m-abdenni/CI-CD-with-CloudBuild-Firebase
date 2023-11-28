@@ -5,7 +5,13 @@ steps:
     args: ['run', 'build']
   - name: 'gcr.io/utility-logic-405710/firebase'
     args:
-      - 'deploy'
-      - '--project=vite-host-7a0bc'
-      - '--only=hosting:fb_deploy'
-      - 'dist'
+      - target:apply
+      - hosting
+      - fb_deploy
+      - vite-host-7a0bc
+      - --project=vite-host-7a0bc
+  - name: 'gcr.io/utility-logic-405710/firebase'
+    args:
+      - deploy
+      - --project=vite-host-7a0bc
+      - --only=hosting
