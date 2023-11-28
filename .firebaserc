@@ -2,10 +2,5 @@
   "projects": {
     "default": "vite-host-7a0bc"
   },
-  "targets": {
-    "vite-host-7a0bc": {
-      "hosting": {}
-    }
-  },
   "etags": {}
 }
