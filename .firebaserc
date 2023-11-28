@@ -4,11 +4,7 @@
   },
   "targets": {
     "vite-host-7a0bc": {
-      "hosting": {
-        "fb_deploy": [
-          "vite-host-7a0bc"
-        ]
-      }
+      "hosting": {}
     }
   },
   "etags": {}
