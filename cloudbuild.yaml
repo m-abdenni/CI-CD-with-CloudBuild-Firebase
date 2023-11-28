@@ -13,4 +13,4 @@ steps:
     args:
       - deploy
       # - --project=vite-host-7a0bc
-      - --only=hosting
+      - --only=hosting:fb_deploy
