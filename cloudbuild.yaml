@@ -6,7 +6,9 @@ steps:
   - name: 'gcr.io/utility-logic-405710/firebase'
     args:
       - target:apply
-      - hosting fb_deploy dist
+      - hosting
+      - fb_deploy
+      - dist
       - --project=vite-host
   - name: 'gcr.io/utility-logic-405710/firebase'
     args:
