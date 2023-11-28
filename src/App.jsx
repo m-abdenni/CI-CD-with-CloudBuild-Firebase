@@ -24,7 +24,7 @@ function App() {
        
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click to learn more
       </p>
 
       <a href="https://vitejs.dev" target="_blank">
