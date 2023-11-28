@@ -3,13 +3,12 @@ steps:
     args: ['install']
   - name: 'gcr.io/cloud-builders/npm'
     args: ['run', 'build']
-  # - name: 'gcr.io/utility-logic-405710/firebase'
-    # args:
-    #   - target:apply
-    #   - hosting
-    #   - fb_deploy
-    #   - vite-host-7a0bc
-    #   - --project=vite-host-7a0bc
+  - name: 'gcr.io/utility-logic-405710/firebase'
+    args:
+      - target:clear
+      - hosting
+      - fb_deploy
+  
   - name: 'gcr.io/utility-logic-405710/firebase'
     args:
       - deploy

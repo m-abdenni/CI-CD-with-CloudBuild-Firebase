@@ -24,7 +24,7 @@ function App() {
        
       </div>
       <p className="read-the-docs">
-        Click to learn more by reading the docs
+        Click to learn more by reading the docs.
       </p>
 
       <a href="https://vitejs.dev" target="_blank">
