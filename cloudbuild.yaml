@@ -6,4 +6,5 @@ steps:
   - name: 'gcr.io/utility-logic-405710/firebase'
     args:
       - deploy
+      - --project=vite-host
       - --only=hosting
